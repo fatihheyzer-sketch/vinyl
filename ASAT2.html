@@ -1,0 +1,345 @@
+<html><!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Onyx&display=swap" rel="stylesheet">
+
+<title>GrooveMarket Indonesia</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Onyx', sans-serif;
+background:#f9f9f9;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:#DDE88A;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #eee;
+}
+
+header h1{
+font-size:1.5em;
+color:#333;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:bold;
+}
+
+.search{
+padding:8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#4B2E4C;
+}
+
+.hero h2{
+font-size:2.5em;
+margin-bottom:20px;
+color:white;
+}
+
+.hero p{
+font-size:1.2em;
+margin-bottom:30px;
+color:white;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 20px;
+display:flex;
+justify-content:center;
+}
+
+.about-box{
+max-width:700px;
+background:#DDE88A;
+padding:40px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-box h2{
+font-size:2em;
+margin-bottom:20px;
+}
+
+.about-box p{
+line-height:1.6;
+margin-bottom:15px;
+}
+
+/* FEATURED ARTISTS */
+
+.artists{
+text-align:center;
+padding:40px;
+}
+
+.artist-list{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.artist{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* PRODUCTS */
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.product{
+background:#DDE88A;
+padding:20px;
+border-radius:8px;
+text-align:center;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+transition:transform 0.3s ease;
+}
+
+.product:hover{
+transform:scale(1.05);
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+.product h3{
+margin:15px 0 10px;
+}
+
+.product p{
+color:#333;
+margin-bottom:10px;
+}
+
+.product button{
+padding:10px 20px;
+background:white;
+color:#333;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* FOOTER */
+
+footer{
+background:white;
+padding:20px;
+text-align:center;
+border-top:1px solid #eee;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>GrooveMarket Indonesia</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#">Contact</a>
+
+<input type="text" class="search" placeholder="Search vinyl...">
+
+<a href="#">Cart 🛒</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Trending Vinyl Pop</h2>
+<p>Exclusive Pop Collection</p>
+
+</section>
+
+<section id="about" class="about">
+
+<div class="about-box">
+
+<h2>About GrooveMarket</h2>
+
+<p>
+GrooveMarket Indonesia is a modern vinyl marketplace created for music lovers
+who appreciate the authentic sound of records.
+</p>
+
+<p>
+We provide exclusive collections, rare editions, and the latest releases from
+pop artists around the world with a modern and trusted shopping experience.
+</p>
+
+<p>
+Our mission is to keep vinyl culture alive while making record collecting
+accessible for the new generation of music listeners.
+</p>
+
+</div>
+
+</section>
+
+<section class="artists">
+
+<h2>Featured Artists</h2>
+
+<div class="artist-list">
+
+<div class="artist">Tyler, The Creator</div>
+<div class="artist">Taylor Swift</div>
+<div class="artist">The Weeknd</div>
+<div class="artist">Ariana Grande</div>
+
+</div>
+
+</section>
+
+<section class="products" id="shop">
+
+<div class="product">
+
+<img src="chroma-asat.jpg" alt="Chromakopia">
+
+<h3>Chromakopia</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$35</p>
+
+<button>Buy</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://www.turntablelab.com/cdn/shop/products/tylerthecreator-scumfuck_18986188-58d8-495e-93a4-3e579bcebd85.jpg?v=1762273630&width=1024">
+
+<h3>Flower Boy</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$40</p>
+
+<button>Buy</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://www.turntablelab.com/cdn/shop/products/tylerthecreator-igor1.jpg?v=1571265780">
+
+<h3>IGOR</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$375</p>
+
+<button>Buy</button>
+
+</div>
+
+</div>
+
+<div class="product">
+
+<img src="swiftasat.jpeg">
+
+<h3>Lover</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$35</p>
+
+<button>Buy</button>
+
+</div>
+
+</div>
+
+<div class="product">
+
+<img src="red2.jpeg">
+
+<h3>Red</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$20</p>
+
+<button>Buy</button>
+
+</div>
+</div>
+
+<div class="product">
+
+<img src="1989.jpeg">
+
+<h3>1989</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$200</p>
+
+<button>Buy</button>
+
+</div>
+
+
+</section>
+
+<footer>
+
+<p>© 2026 GrooveMarket Indonesia. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
